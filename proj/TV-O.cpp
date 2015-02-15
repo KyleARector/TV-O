@@ -82,7 +82,7 @@ public:
         isUnlocked = false;
     }
 	
-	void print( SerialPort^ arduino )
+	void sendToArduino( SerialPort^ arduino )
     {
         if (onArm) {
             
@@ -149,7 +149,7 @@ int main(int argc, char** argv)
 		{
 			hub.run(1000/20);  // 20 times a second
 
-			collector.print(arduino);
+			collector.sendToArduino(arduino);
 		}
 
 		arduino->Close();
