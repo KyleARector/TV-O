@@ -1,4 +1,4 @@
-﻿Build started 2/13/2015 2:53:44 PM.
+﻿Build started 2/16/2015 7:12:35 PM.
      1>Project "C:\Users\Kyle\Documents\GitHub\TV-O\proj\TV-O.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\ /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt /clr:nostdlib "TV-O.cpp"
@@ -16,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.38
+Time Elapsed 00:00:02.39
