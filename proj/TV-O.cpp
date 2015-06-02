@@ -120,7 +120,7 @@ int main(int argc, char** argv)
 {
 	String^ portName;
 	int baudRate=9600;
-	portName = "Com4";
+	portName = "Com6";
 	SerialPort^ arduino;
 	arduino = gcnew SerialPort(portName, baudRate);
 
@@ -128,7 +128,7 @@ int main(int argc, char** argv)
 	{
 		arduino->Open();
 
-		myo::Hub hub("com.example.hello-myo");
+		myo::Hub hub("com.tv.myo");
 
 		std::cout << "Attempting to find a device." << std::endl;
 
